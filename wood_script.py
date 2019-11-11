@@ -19,4 +19,3 @@ if __name__ == "__main__":
     result = task_part_two(task_2_input, [1, 2.5])
     print(result)
     print(sum(result.values()))
-    print(sum(result.values()) == sum({item['m3']: item['cost'] for item in task_2_input}.values()))
